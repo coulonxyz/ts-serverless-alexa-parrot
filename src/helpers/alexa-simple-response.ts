@@ -2,8 +2,9 @@ export function dumpSingleReponse(text) {
 
     return {
         "version": "1.0",
-        "shouldEndSession": false,
+
         "response": {
+            "shouldEndSession": false,
             "outputSpeech": {
                 "type": "PlainText",
                 "text": text,
